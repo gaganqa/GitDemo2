@@ -7,7 +7,7 @@ import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 
 public class AmazonHooks {
-@Before(order=1)
+@Before(order=1)// flow of test cases 
 public void setUp_browser(Scenario sc) {
 	System.out.println("launch chrome ");
 	System.out.println(sc.getName());

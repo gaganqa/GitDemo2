@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 public class Searchsteps {
 	@Given("Search field in Amazon web site is open")
 	public void search_field_in_amazon_web_site_is_open() {
-		System.out.println("Step 1 : i am on search page");
+		System.out.println("Step 1 : i am on search page----");
 	    
 	}
 
